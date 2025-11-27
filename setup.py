@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="retina",
+    name="diabetic-retinopathy-ai",
     version="1.0.0",
     author="Mohamad AlJasem, MD MPH MSc",
     author_email="mohamad@aljasem.eu.org",
     description="Diabetic Retinopathy Detection using InceptionV3",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/m-aljasem/retina",
+    url="https://github.com/m-aljasem/diabetic-retinopathy-ai",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",

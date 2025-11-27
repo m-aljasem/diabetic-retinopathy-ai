@@ -9,8 +9,8 @@ from src.model import build_retinopathy_model
 
 LEVELS = ["No DR", "Mild", "Moderate", "Severe", "Proliferative DR"]
 
-st.set_page_config(page_title="Retinopathy Detection", page_icon="👁️")
-st.title("👁️ Diabetic Retinopathy Detection")
+st.set_page_config(page_title="Diabetic Retinopathy AI", page_icon="👁️")
+st.title("Diabetic Retinopathy AI")
 
 MODELS_DIR = Path("models")
 WEIGHTS_PATH = MODELS_DIR / "retinopathy_model.h5"

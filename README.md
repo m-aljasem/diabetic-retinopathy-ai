@@ -83,7 +83,7 @@ pip install -r requirements-dev.txt
 ### 1️⃣ Train the Model
 
 ```bash
-cd retina
+cd diabetic-retinopathy-ai
 python src/train.py
 ```
 
@@ -96,11 +96,11 @@ models/retinopathy_model.h5
 ### 2️⃣ Run the Streamlit App
 
 ```bash
-cd retina
+cd diabetic-retinopathy-ai
 streamlit run app.py
 ```
 
-Upload a retina image and get the predicted DR severity level and confidence.
+Upload a diabetic-retinopathy-ai image and get the predicted DR severity level and confidence.
 
 ---
 
@@ -140,7 +140,7 @@ confidence = pred[level]
 ## 🗂 Project Structure
 
 ```text
-retina/
+diabetic-retinopathy-ai/
 ├── app.py                    # Streamlit app
 ├── config/
 ├── data/                     # DR images + labels
