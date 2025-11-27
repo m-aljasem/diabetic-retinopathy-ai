@@ -38,7 +38,7 @@ Deep learning system for **grading diabetic retinopathy** from retinal fundus ph
 
 This project implements an **InceptionV3-based classifier** to predict **diabetic retinopathy severity (0–4)** from retinal fundus images.
 
-It follows the typical Kaggle DR challenge setup and provides:
+It provides a comprehensive diabetic retinopathy detection system with:
 
 - A training pipeline
 - A Streamlit app for interactive severity grading
